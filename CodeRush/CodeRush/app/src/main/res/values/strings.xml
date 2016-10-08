@@ -29,4 +29,9 @@
     <string name="delivered_text">Delivered</string>
     <string name="sending_text">Sending...</string>
     <string name="failed_text">Failed</string>
+
+    <string name="welcome_main">Welcome!</string>
+    <string name="welcome_text">
+        I'm SAFE is an application intended to help you in case of emergency.
+    </string>
 </resources>

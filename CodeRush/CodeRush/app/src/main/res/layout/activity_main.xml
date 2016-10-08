@@ -11,7 +11,30 @@
     tools:context="com.example.hp.coderush.MainActivity">
 
     <TextView
+        android:id="@+id/welcomeMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_main"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/welcomeMain"
+        android:layout_marginTop="26dp"
+        android:text="@string/welcome_text"
+        android:textSize="@dimen/txt_18sp" />
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/okBtn"
+        android:text="OK"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/welcomeText"/>
 </RelativeLayout>
