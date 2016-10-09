@@ -9,6 +9,11 @@ import android.support.v7.app.AppCompatActivity;
  */
 
 public class SplashActivity extends AppCompatActivity {
+    boolean isLoggedIn;
+    boolean btnTriggered;
+    Intent loginIntent;
+    Intent countdownIntent;
+    Intent homeIntent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +21,23 @@ public class SplashActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+        loginIntent = new Intent(this, LoginActivity.class);
+        countdownIntent = new Intent(this, CountdownActivity.class);
+
+        //check login status
+        isLoggedIn = true;
+        btnTriggered = true;
+        if(btnTriggered){
+            finish();
+            startActivity(countdownIntent);
+        }
+        else if(isLoggedIn){
+            finish();
+            startActivity(loginIntent);
+        }
+        else{
+            finish();
+        }
         finish();
     }
 }

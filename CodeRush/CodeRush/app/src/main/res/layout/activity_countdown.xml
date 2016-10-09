@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_countdown"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_centerInParent="true"
+    tools:context="com.example.hp.coderush.CountdownActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANCEL ALERT"
+        android:id="@+id/cancelAlertBtn"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_below="@+id/notificationTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert activated"
+        android:textSize="@dimen/txt_20sp"
+        android:id="@+id/notificationText"
+        android:paddingBottom="@dimen/pad_20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+        <TextView
+            android:layout_below="@+id/notificationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/notificationTime"
+            android:textSize="26sp">
+        </TextView>
+
+</RelativeLayout>
