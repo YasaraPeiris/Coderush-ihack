@@ -41,4 +41,39 @@
             android:textSize="26sp">
         </TextView>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationMain"
+        android:text="Current Location Details"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/cancelAlertBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="66dp"
+        android:layout_marginStart="66dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationName"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textSize="18dp"
+        android:layout_marginTop="14dp"
+        android:text="fgsdfg"
+        android:layout_below="@+id/locationMain"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationAddress"
+        android:textSize="18dp"
+        android:text="fgsdfb"
+        android:layout_below="@+id/locationName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
 </RelativeLayout>

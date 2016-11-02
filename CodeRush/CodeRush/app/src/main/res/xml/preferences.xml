@@ -9,10 +9,10 @@
         android:key="timeout"
         android:title="Set Timeout"
         android:summary="Set timeout to send alerts"
-        android:dialogTitle="Set timeout to send alerts"
-        android:entries="@array/list"
+        android:dialogTitle="Set timeout to send alerts"/>
+        <!--android:entries="@array/list"
         android:entryValues="@array/list_values"
-        android:defaultValue="10" />
+        android:defaultValue="10"-->
     <ListPreference
         android:key="passcode_true"
         android:title="My Correct Passcode"

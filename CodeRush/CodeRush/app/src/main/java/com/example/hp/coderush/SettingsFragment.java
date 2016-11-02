@@ -47,10 +47,10 @@ public class SettingsFragment extends PreferenceFragment {
     // TODO: Rename and change types and number of parameters
     public static SettingsFragment newInstance(String param1, String param2) {
         SettingsFragment fragment = new SettingsFragment();
-        Bundle args = new Bundle();
+        /*Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
+        fragment.setArguments(args);*/
         return fragment;
     }
 
@@ -58,17 +58,17 @@ public class SettingsFragment extends PreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.preferences);
-        if (getArguments() != null) {
+        /*if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+        }*/
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         TextView textView = new TextView(getActivity());
-        textView.setText(R.string.hello_blank_fragment);
+      //  textView.setText(R.string.hello_blank_fragment);
         return textView;
     }
 

@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">I am Safe</string>
-
+    <string name="google_app_id">716526910603</string>
+    <string name="api_key">AIzaSyCqC5KlnR3wIPeQ2d5k4NzrQsRgdTkNZPo</string>
     <string name="type_msg">Type message</string>
 
     <string name="drawer_open">Open</string>
@@ -35,9 +36,7 @@
         I am SAFE is an application intended to help you in case of emergency.
     </string>
 
-    <string-array name="list">10 s, 15 s, 20 s</string-array>
-    <string-array name="list_values">10, 15, 20</string-array>
+    <!--<string-array name="list">as,sadfas,sdfas</string-array>
+    <string-array name="list_values">10,15,20</string-array>-->
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
